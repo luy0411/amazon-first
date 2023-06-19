@@ -7,7 +7,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FirstApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirstApplication.class, args);
+
+		String[] words = {
+			"raincoat", "rain", "coat",	"cup",
+			"cake",	"cupcake",	"fireman", "fire",
+			"man", "sunglasses", "sun", "glasses",
+			"blackboard", "black", "board","football",
+			"foot",	"ball",	"moonlight",
+			"moon",	"light","toothbrush","tooth",
+			"brush","starfish",	"star",	"fish",	"wheelchair",
+			"wheel", "chair", "lighthouse", "light",
+			"house", "firefly",	"fire",	"fly", "rockstar", "rock",
+			"rockstars", "tar", "rocks"
+		};
+
 	}
 
 }
