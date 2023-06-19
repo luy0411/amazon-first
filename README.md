@@ -31,13 +31,9 @@ Make sure to explore her channel for a wide range of interview-related content, 
 
 Given a list of compounded words, the task is to arrange and count every possible pair of words from the list. For example, if we have the following list:
 
-arduinoCopy code
-
 `{"rockstar", "rock", "rockstars", "tar", "star", "rocks"}`
 
 The expected output would be a list of lists:
-
-arduinoCopy code
 
 `{{"rock", "star"}, {"rocks", "tar"}}`
 

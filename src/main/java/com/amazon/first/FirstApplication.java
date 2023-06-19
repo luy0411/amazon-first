@@ -3,12 +3,14 @@ package com.amazon.first;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Set;
+
 @SpringBootApplication
 public class FirstApplication {
 
 	public static void main(String[] args) {
 
-		String[] words = {
+		String[] entry = {
 			"raincoat", "rain", "coat",	"cup",
 			"cake",	"cupcake",	"fireman", "fire",
 			"man", "sunglasses", "sun", "glasses",
@@ -20,6 +22,10 @@ public class FirstApplication {
 			"house", "firefly",	"fire",	"fly", "rockstar", "rock",
 			"rockstars", "tar", "rocks"
 		};
+
+		Set<String> words = Set.of(entry);
+
+		words.stream().forEach(System.out::println);
 
 	}
 
